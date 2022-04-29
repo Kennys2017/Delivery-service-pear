@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "MinionPro";
+    src: url("../fonts/MinionPro-Regular.ttf");
+}
+html{
+    width: 1920px;
+    margin: 0 auto;
+    font-family: MinionPro;
+}
+a{
+    text-decoration: none;
+    color:#b68c33;
+    text-transform: uppercase;
+}
+h2{
+    margin-top: 0;
+}
+button{
+    cursor: pointer;
+}
+header{
+    width: 1920px;
+    margin: 0 auto;
+    height: 211px;
+    background-color: #f0d2bf;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 140px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin-top: 30px;
+    width: 134px;
+    height: 118px;
+}
+.logo_text{
+    margin-left: 20px;
+    height: 87px;
+    width: 405px;
+    font-size: 30px;
+    color: #b68c33;
+    font-weight: 400;
+}
+.logo_text p{
+    margin-top: 10px;
+}
+.logo_text h2{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 600;
+}
+.logo_number{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 157px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #b68c33;
+}
+.logo_number p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo_number h2{
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.logo_number button{
+    width: 200px;
+    height: 43px;
+    font-size: 36px;
+    font-weight: 500;
+    background-color: #e47e2c;
+    color: #883100;
+    border-radius: 30px;
+    border-style: none;
+    font-family: MinionPro;
+}
+nav{
+    width: 1920px;
+    height: 101px;
+    background-color:#f0d2bf;
+    display: flex;
+    justify-content: space-between;
+    font-size: 38px;
+    color:#b68c33;
+}
+.nav_href{
+    margin-left: 290px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    color:#b68c33;
+}
+.about{
+    width: 1920px;
+    background-color: #b68c33;
+    font-size: 36px;
+    color: #f0d2bf;
+    font-weight: 500;
+    height: 450px;
+}
+.about h2{
+    padding-top: 62px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: center;
+}
+.about p{
+    margin-left: 290px;
+    margin-bottom: 0;
+    margin-top: 80px;
+    width: 1304px;
+}
+.menu{
+    width: 1920px;
+    height: 581px;
+    background-color:#f0d2bf; ;    
+}
+.menu h2{
+    font-size: 48px;
+    color: #b68c33;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 62px;
+}
+.food_menu{
+    margin-left: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1260px;
+}
+.food_card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 340px;
+}
+.food_card img{
+    width: 300px;
+    height: 173px;
+}
+.food_card p{
+    font-size: 48px;
+    color: #b68c33;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    width: 400px;
+}
+.shop{
+    width: 1920px;
+    height: 906px;
+    background-color: #b68c33;
+}
+.shop h2{
+    padding-top: 62px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: center;
+    color: #f0d2bf;
+}
+.shop_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 500px;
+    margin-left: 290px;
+}
+.shop_card{
+    width: 430px;
+    height: 500px;
+    font-size: 30px;
+    color: #f0d2bf;
+    font-weight: 400;
+    width: 409px;
+    text-align: left;
+}
+.shop_card img{
+    height: 162px;
+}
+.shop_card button{
+    width: 362px;
+    height: 90px;
+    background-color: #e47e2c;
+    color: #f0d2bf;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 36px;
+    font-weight: 600;
+}
+.diksi{
+    margin-left: 50px;
+}
+.feedback{
+    width: 1920px;
+    height: 1150px;
+    background-color: #f0d2bf;
+}
+.feedback h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #b68c33;
+    text-align: center;
+    padding-top: 68px;
+}
+.clients{
+    margin-left: 290px;
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 735px;
+}
+.client_card{
+    width: 430px;
+    height: 666px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #b68c33;
+}
+.client_card img{
+    width: 240px;
+    height: 260px;
+}
+.client_card h2{
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+}
+.contact{
+    width: 1920px;
+    height: 940px;
+    background-color: #b68c33;
+}
+.contact h2{
+    font-size: 48px;
+    font-weight: 600;
+    color:#f0d2bf;
+    text-align:center;
+    padding-top: 68px;
+}
+.contact p{
+    margin-left: 290px;
+    font-size: 48px;
+    color:#f0d2bf;
+    font-weight: 600;
+}
+.map_number{
+    margin-left: 290px;
+    width: 1440px;
+    height: 526px;
+    display: flex;
+    justify-content: space-between;
+}
+.map_number img{
+    width: 708px;
+    height: 455px;
+}
+.number_media{
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+    height: 524px;
+}
+.cont_number{
+    width: 610px;
+    height: 290px;
+}
+.cont_number p{
+    margin-left: 127px;
+}
+.social_media{
+    width: 400px;
+    height: 105px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 127px;
+}
+.social_media img{
+    width: 100px;
+    height: 108px;
+}
+.vakancy{
+    width: 1920px;
+    height: 1040px;
+    background-color: #f0d2bf;
+}
+.vakancy h2{
+    font-size: 48px;
+    color: #b68c33;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 68px;
+}
+.vakancy p{
+    font-size: 36px;
+    font-weight: 600;
+    color: #c59e5a;
+    text-align: center;
+}
+.vakancy_menu{
+    display: flex;
+    justify-content:space-between;
+    width: 1400px;
+    height: 400px;
+    margin-left: 290px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.vakancy_card{
+    width: 400px;
+    height: 376px;
+}
+.vakancy_card img{
+    width: 340px;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+}
+.vakancy_card p{
+    font-size: 48px;
+    font-weight: 600;
+}
+footer{
+    width: 1920px;
+    height: 404px;
+    background-color: #b68c33;
+    display: flex;
+    justify-content: space-between;
+    font-size: 48px;
+    font-weight: 600;
+    color: #f0d2bf;
+    align-items: center;
+}
+footer p{
+    width: 400px;
+    margin-left: 20px;
+    padding-top: 200px;
+}
+.social_media_footer{
+    margin-right: 20px;
+    padding-top: 210px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 90px;
+}
+.social_media_footer img{
+    width: 85px;
+    height: 82px;
+}
+.vk{
+    width: 90px;
+    height: 54px; 
+}
+
